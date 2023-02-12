@@ -1,6 +1,7 @@
 import scala.io.Source._
 import org.apache.spark.sql.{Dataset, DataFrame}
 import org.apache.spark.sql.functions._
+import org.apache.spark.SparkFiles
 import org.apache.spark.sql.types.{FloatType, StringType, DataType}
 import org.apache.spark.ml.feature.{OneHotEncoder, StringIndexer, VectorAssembler}
 import org.apache.spark.ml.Pipeline
@@ -26,13 +27,12 @@ object App{
     // Download data
     val url: String = "https://raw.githubusercontent.com/guru99-edu/R-Programming/master/adult_data.csv"
     val CONTI_FEATURES: Array[String] = Array("age", "fnlwgt", "capital-gain", "educational-num", "capital-loss", "hours-per-week")
-    var res = fromURL(url).mkString.stripMargin.lines.toList
-    val csvData: Dataset[String] = sc.parallelize(res).toDS
+    sc.addFile(url)
 
     var frame = spark.read.
                       option("header", true).
                       option("interSchema", true).
-                      csv(csvData).
+                      csv("file://" + SparkFiles.get("adult_data.csv")).
                       cache()
 
     // Visualization
