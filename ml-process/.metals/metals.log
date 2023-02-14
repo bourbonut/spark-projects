@@ -1,9 +1,0 @@
-2023.02.10 17:35:45 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mpdata/Documents/Scala/spark-projects/ml-process/.metals/lsp.trace.json or /home/mpdata/.cache/metals/lsp.trace.json[0m
-2023.02.10 17:35:46 INFO  logging to file /home/mpdata/Documents/Scala/spark-projects/ml-process/.metals/metals.log[0m
-2023.02.10 17:35:46 INFO  Started: Metals version 0.11.10 in workspace '/home/mpdata/Documents/Scala/spark-projects/ml-process' for client Neovim 0.8.1.[0m
-SLF4J: No SLF4J providers were found.
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
-SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
-SLF4J: Ignoring binding found at [jar:file:/home/mpdata/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
-SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
