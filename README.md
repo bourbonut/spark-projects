@@ -4,6 +4,8 @@ There are currently three projects with Spark written in Scala where the goal is
 - Full Machine Learning Process (read data, visualize data, manipulate data and build a pipeline to train a model)
 - Oceans (read data and manipulate data to extract information)
 - OpenSea NFT (read data and manipulate data through this large dataset)
+- Airline Delay Cancellations (compare performance between Spark and Polars through a large dataset)
+- Bills (project based on [https://towardsdatascience.com](https://towardsdatascience.com/six-spark-exercises-to-rule-them-all-242445b24565))
 
 ## Dependencies
 
