@@ -1,6 +1,6 @@
 # Spark Projects
 
-There are currently three projects with Spark written in Scala where the goal is to manipulate the syntax of Scala and learn how Spark works :
+There are several projects with Spark written in Scala where the goal is to manipulate the syntax of Scala and learn how Spark works:
 - Full Machine Learning Process (read data, visualize data, manipulate data and build a pipeline to train a model)
 - Oceans (read data and manipulate data to extract information)
 - OpenSea NFT (read data and manipulate data through this large dataset)
@@ -35,7 +35,8 @@ tar -xzf spark-3.3.1-bin-hadoop3.tgz
 mv spark-3.3.1-bin-hadoop3 spark
 ```
 
-Note : `spark` should be located in your home directory
+> [!NOTE]
+> `spark` should be located in your home directory
 
 4. Add paths to your `~/.bashrc`:
 
